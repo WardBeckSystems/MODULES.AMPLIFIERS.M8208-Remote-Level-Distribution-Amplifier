@@ -16,7 +16,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -27,7 +27,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -38,7 +38,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -49,7 +49,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -60,7 +60,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -71,7 +71,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -82,7 +82,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -93,7 +93,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -104,7 +104,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -115,7 +115,7 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   },
   {
@@ -126,13 +126,13 @@
    "polarity": null,
    "confidence": "medium",
    "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "file": "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
    "page": 1
   }
  ],
  "straps": [],
  "power": [],
  "sources": [
-  "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp"
+  "Modules/AMPLIFIERS/M8208/MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp"
  ]
 }
