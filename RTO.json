@@ -1,0 +1,138 @@
+{
+ "code": "M8208",
+ "connector": "RTO-144",
+ "type": "Remote Level Distribution Amplifier",
+ "series": null,
+ "contacts": "15 contacts",
+ "verified": null,
+ "derived": true,
+ "variant_of": null,
+ "pins": [
+  {
+   "pin": "1",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "4",
+   "signal": "TWO DIRECT COUPLED ACTIVELY BALANCED OUTPUTS",
+   "kind": "out",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "5",
+   "signal": "TWO DIRECT COUPLED ACTIVELY BALANCED OUTPUTS",
+   "kind": "out",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "13",
+   "signal": "±22 VOLT DC SUPPLY VOLTAGE",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "15",
+   "signal": "±22 VOLT DC SUPPLY VOLTAGE",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "A",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "B",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "D",
+   "signal": "TWO DIRECT COUPLED ACTIVELY BALANCED OUTPUTS",
+   "kind": "out",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "E",
+   "signal": "TWO DIRECT COUPLED ACTIVELY BALANCED OUTPUTS",
+   "kind": "out",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "P",
+   "signal": "±22 VOLT DC SUPPLY VOLTAGE",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "S",
+   "signal": "±22 VOLT DC SUPPLY VOLTAGE",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  }
+ ],
+ "straps": [],
+ "power": [],
+ "sources": [
+  "Modules/AMPLIFIERS/M8208/SCHEMATICS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp"
+ ]
+}

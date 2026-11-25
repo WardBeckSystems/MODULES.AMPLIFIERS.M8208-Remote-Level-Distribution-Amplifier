@@ -1,5 +1,5 @@
 # 1995 - M8208 - REMOTE LEVEL AMPLIFIER 001.jpg
-Wiki page: [M8208](../../../PAGES/M8208.md)
+Wiki page: [M8208](../../../../PAGES/M8208.md)
 
 
 - **Year:** 1995 (module estimate (manual_issue))
@@ -34,7 +34,7 @@ WBS WARD-BECK SYSTEMS
 
 ```json
 {
- "file": "Modules/AMPLIFIERS/M8208/1995 - M8208 - REMOTE LEVEL AMPLIFIER 001.jpg",
+ "file": "Modules/AMPLIFIERS/M8208/PHOTOS/1995 - M8208 - REMOTE LEVEL AMPLIFIER 001.jpg",
  "sha256": "39d485a77cc5f8c6aa05d23a00819715f2a2067d10ae128a399f8b2685cd6de3",
  "kind": "module",
  "models": [
