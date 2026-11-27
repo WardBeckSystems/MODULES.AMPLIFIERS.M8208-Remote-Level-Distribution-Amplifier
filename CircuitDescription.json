@@ -1,0 +1,192 @@
+{
+ "module": "M8208",
+ "source": {
+  "file": "MANUALS/1995 - M8208 - 8208-02-001 - COMPONENT LAYOUT.wp",
+  "pages": [
+   1
+  ]
+ },
+ "ocr_quality": 0.92,
+ "read": "OCR of the manual's circuit description; check against the pages",
+ "sections": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "4 SA14-146 Audio Terminal Assembly 4-1",
+    "5 Connector Layout 5-1",
+    "6 Parts List 6-1 to 6-4",
+    "7 Drawings:",
+    "Schematic B 8208-02-001 Component Layout B 8208-06-001",
+    "Input Sensitivity: 0 to +10 dBm continuously variable.",
+    "Level Control Range: 65 dB.",
+    "Frequency Response: ±0.2 dB 20 Hz to 30 kHz.",
+    "Noise: 115 dB below maximum output at unity gain with zero \"in hand\".",
+    "85 dB below the nominal +4 dBu output at unity gain with zero \"in hand\".",
+    "Harmonic Distortion: Less than 0.25% (VCA limited) 50 Hz to 15 kHz at +14 dBu test level at unity gain with zero \"in hand\".",
+    "Less than 0.3% 20 Hz to 20 kHz at up to +24 dBu at unity gain with zero \"in hand\".",
+    "Less than 0.3% 20 Hz to 20 kHz at +24 dBu in with 15 dB \"in hand\".",
+    "Input Level: 0 dBu to +8 dBu nominal for +4 dBu output. +28 dBu maximum.",
+    "Input Impedance: 30,000 Ω or greater, balanced.",
+    "Source Impedance: 600 ohms or less, balanced.",
+    "Common Mode Rejection: Better than 80 dB 20 Hz to 15 kHz.",
+    "Common Mode Voltage: +25 volts peak.",
+    "Output Level: +4 dBu nominal, +30 dBu maximum.",
+    "Output Impedance:",
+    "Output 1: 0.1 ohms or less actively balanced.",
+    "Output 2: 60 ohms resistive actively balanced.",
+    "Load Impedance: 600 ohms or greater, balanced (1 output).",
+    "Output Isolation: 40 dB, 30 Hz to 20 kHz with 60 ohm splitter network.",
+    "Remote Level: 5K linear potentiometer, up to 1000 feet (300 metres).",
+    "Phasing: The numbered terminal of the input pair and the numbered terminal of the output pair are in phase.",
+    "Power Requirements: ±22 volts DC, 65 mA.",
+    "Ambient Temperature: 0 to 50 degrees Celsius.",
+    "Dimensions: 1.00\" wide x 2.75\" high x 10.60\" deep.",
+    "(25.4 mm x 70.0 mm x 270.0 mm).",
+    "Weight: 0.4 lbs (175 grams)."
+   ]
+  },
+  {
+   "heading": "GENERAL",
+   "paragraphs": [
+    "The M8208 Remote Level Amplifier allows remote level control of an audio signal with a remotely located potentiometer.",
+    "A transformerless, actively balanced input amplifier with state of the art common mode rejection (greater than 80 dB from 20 Hz to 20 kHz); permits the M8208 to handle signals ina myriad of harsh environments with excellent results.",
+    "The signal level maybe adjusted remotely over a 65 dB range with little signal degradation. This allows the signal level to be optimally set to maintain system headroom requirements. The output stage of the M8208 is highly compliant (+30 dBu maximum output), assuring maximum dynamic range possible at line output levels. The M8208 Remote Level Amplifier has been conveniently packaged for integration into the WBS D8212 Audio Distribution System. The M8208 maybe mounted in an MF82 frame with additional M8200 series amplifiers to provide a versatile audio system. Input",
+    "The input signal to the amplifier is applied at connector pins 1 and A, and the input shield to pin B.",
+    "R1 and R2 set the amplifier input impedance to 30,000 ohms. Integrated circuit U1 with it's associated components makeup the input preamplifier circuit.",
+    "Diodes CR1 through CR4 protect the preamplifier input from excessive input signals. Trimmable capacitor C5 provides high frequency common mode rejection adjustment, while R6 provides low frequency rejection adjustment.",
+    "Sensitivity control R13 controls the feedback around preamplifier U1. The preamplifier output is coupled through C12 to the voltage controlled amplifier (VCA) consisting of U2, U3 and associated components.",
+    "The DBX2151 is a current input, current output voltage controlled amplifier. A control voltage of zero volts at pin 3 of U2 results ina current transfer ratio of 1 (i.e. no gain or loss).",
+    "For alignment purposes, this current relationship is realized by removing link LK1. A (-13) dBu signal present at U1 pin 7 is the nominal operating level. By observing the amplifier output at pins 5 and E; trim potentiometer R17 (symmetry) is adjusted for minimum distortion. Potentiometer R16 (OFFSET) is trimmed for less than 5 mV of DC output off set at U3 pin 6.",
+    "Control Amplifier",
+    "The VCA control voltage is developed by U6D. A two-slope linear approximation to a audio-taper potentiometer is provided by Q5, R46, R47, R49 and R50. This allows a standard 5K ohm linear potentiometer to be used as a level control actuator. Integrated circuit U6C provides a polarity reversal to U6D's output. Link LK1 is present to allow convenient removal of the control voltage; which is particularly useful for alignment purposes. Diode CR5 prevents the VCA from going into a positive gain operating state.",
+    "Output Amplifier",
+    "An actively balanced output amplifier is composed of two sections; the upper half comprising U4 and associated components, and the lower half consisting of U5 and it's related components.",
+    "Two direct coupled actively balanced outputs are provided at module connector pins 4 & D and 5 & E; output 1 and output 2 respectively.",
+    "Output 1 is a zero ohm output feed, while output 2 has a 60 ohm output impedance set by R33 and R34.",
+    "The output amplifier is capable of a maximum output of +30 dBu into abridging load of 1500 ohms or greater. A single 600 ohm load maybe driven to a +26 dBm level.",
+    "Power Supply Decoupling",
+    "The ±22 volt DC supply voltage appearing at amplifier connector pins 15 & Sand 13 & Pare isolated from the amplifier circuitry by fusing resistors R60 and R61. The incoming ±22 volt supplies are filtered by C38 and C39, after which they connect directly to the output amplifiers (U4 and U5). The VCA current to voltage amplifier (U3) is powered from the ±22 volt power supplies also; R22, R23, C17 and C18 further decouple the power to U3. Transistors Q6, Q7 and R62 through R66 couple the ±22 volts down to ±18 volts for use by preamplifier U1 and control amplifier U6.",
+    "Three terminal regulators U7 and U8 provide an absolute reference voltage for the control amplifier and the VCA.",
+    "The M8208 draws a quiescent 40 mA from the ±22 volt power supply. At full output into a single 600 ohm load, the supply current is 75 mA. C1 Capacitor SOT C2 \" 220 uF/10 V ITT 220M10 C3 \" 220 uF/10 V \" \""
+   ]
+  },
+  {
+   "heading": "C4 \" SOT",
+   "paragraphs": [
+    "C5 \" 2-18 pF Philips 809-05003",
+    "C6 \" 15 pF \" 638-10159 C7 \" 4.7 uF/35 V ITT 4.7M35 C8 \" 15 pF Philips 638-10159 C9 \" 47 pF \" 638-34479 C10 \" 4.7 uF/35 V ITT 4.7M35",
+    "C11 \" 10 pF Philips 638-10109 C12 \" 10 uF/25 V ITT 10M25 C13 \" 10 uF/25 V \" \" C14 \" 10 uF/25 V \" \" C15 \" 22 pF Philips 638-10229",
+    "C16 \" 22 pF \" \" C17 \" 0.1 uF/100 V Sprague K104K20X7RFVBWN C18 \" 0.1 uF/100 V \" \" C19 \" 220 uF/10 V ITT 220M10 C20 \" 22 pF Philips 638-10229",
+    "C21 \" 0.1 uF/100 V Sprague K104K20X7RFVBWN C22 \" 0.1 uF/100 V \" \" C23 \" 22 pF Philips 638-10229 C24 \" 22 pF \" \" C25 \" 22 pF \" \"",
+    "C26 \" 0.1 uF/100 V Sprague K104K20X7RFVBWN C27 \" 0.1 uF/100 V \" \" C28 \" delete C29 \" delete C30 \" 0.1 uF/100 V Sprague K104K20X7RFVBWN",
+    "C31 \" delete C32 \" delete C33 \" delete C34 \" 0.1 uF/100 V Sprague K104K20X7RFVBWN",
+    "C35 \" 220 pF Philips 638-03221 C36 \" delete C37 \" delete C38 \" 22 uF/35 V ITT 22M35 C39 \" 22 uF/35 V \" \"",
+    "C40 Capacitor 10 uF/25 V ITT 10M25 C41 \" 10 uF/25 V \" \"",
+    "CR1-CR5 Diode Motrola 1N4148",
+    "DS1 delete DS2 delete",
+    "Q1 delete Q2 delete Q3 delete Q4 delete Q5 Transistor, NPN National 2N3906"
+   ]
+  },
+  {
+   "heading": "Q7 \", PNP \" 2N6730",
+   "paragraphs": [
+    "R1 Resistor 1/4W 1% 16K2 Philips MRS25F"
+   ]
+  },
+  {
+   "heading": "R5 \" \" 8K25 \" \"",
+   "paragraphs": [
+    "R6 Potentiometer 5K Piher PT10V-5K R7 Resistor 1/4W 1% 75 Philips MRS25F"
+   ]
+  },
+  {
+   "heading": "R12 \" 1/4W 5% 3K \" CR25",
+   "paragraphs": [
+    "R13 Potentiometer 5K Piher PT10H-5K R14 Resistor 1/4W 5% 13K Philips CR25"
+   ]
+  },
+  {
+   "heading": "R15 \" 1/4W 1% 100K \" MRS25F",
+   "paragraphs": [
+    "R16 Potentiometer 20K Piher PT10V-20K"
+   ]
+  },
+  {
+   "heading": "R17 \" 50K \" PT10V-50K",
+   "paragraphs": [
+    "R18 Resistor 1/4W 5% 240K Philips CR25"
+   ]
+  },
+  {
+   "heading": "R25 * \" \" 2K4 \" \"",
+   "paragraphs": [
+    "R26 Resistor 1/4W 1% 75 Philips MRS25F"
+   ]
+  },
+  {
+   "heading": "R27 * \" 1/4W 5% 3K9 \" CR25",
+   "paragraphs": [
+    "R28 delete R29 Potentiometer delete R30 * Resistor 1/4W 5% 8K2 Philips CR25",
+    "R31 Resistor 1/4W 1% 4K75 Philips MRS25F R32 \" 1/4W 5% 0 ohms \" CR25"
+   ]
+  },
+  {
+   "heading": "R33 \" 1W 5% 30 \" PR37J",
+   "paragraphs": [
+    "R34 \" 1/4W 5% 0 ohms \" CR25"
+   ]
+  },
+  {
+   "heading": "R36 \" 1/4W 1% 4K75 \" MRS25F",
+   "paragraphs": [
+    "R37 delete"
+   ]
+  },
+  {
+   "heading": "R38 * \" 1/4W 5% 0 \" CR25",
+   "paragraphs": [
+    "R39 delete"
+   ]
+  },
+  {
+   "heading": "R40 * \" 1/4W 5% 0 \" CR25",
+   "paragraphs": [
+    "R41 delete"
+   ]
+  },
+  {
+   "heading": "R50 \" \" 9K09 \" \"",
+   "paragraphs": [
+    "R51 delete R52 delete R53 delete R54 delete R55 delete",
+    "R56 delete R57 delete R58 Potentiometer delete R59 delete R60 Resistor 1/2W 5% 6.8 Philips SFR25 HJ"
+   ]
+  },
+  {
+   "heading": "R65 \" \" 47 \" \"",
+   "paragraphs": [
+    "R66 Resistor 1/4W 5% 56K Philips CR25"
+   ]
+  },
+  {
+   "heading": "R73 \" \" 6K81 \" \"",
+   "paragraphs": [
+    "U1 Integrated Circuit National LM833N"
+   ]
+  },
+  {
+   "heading": "USED ON DESCRIPTION MFG MFG PART­ NUMBER",
+   "paragraphs": [
+    "PCB Printed Circuit Board WBS 14-278",
+    "LK1 Connector, 2P PCB MTG Berg 65645-202 LK2 Connector, 2P Aptronics 929955-06",
+    "U1-U5 8 Pin Socket Amp 640463-3",
+    "U6 14 Pin Socket \" 640357-3 WBS recommends the use of replacement parts made by the specified manufacturers for continued optimum equipment performance."
+   ]
+  },
+  {
+   "heading": "REMOTE LEVEL DISTRIBUTION AMPLIFIER",
+   "paragraphs": [
+    "March 30, 1995"
+   ]
+  }
+ ]
+}
