@@ -1,5 +1,5 @@
 # 1995 - M8208 - REMOTE LEVEL AMPLIFIER 003.jpg
-Wiki page: [M8208](../../../../PAGES/M8208.md)
+Wiki page: [M8208](../)
 
 
 - **Year:** 1995 (module estimate (manual_issue))

@@ -1,6 +1,6 @@
 # M8208 Remote Level Distribution Amplifier · Amplifiers
 
-Ward-Beck Systems M8208, 1995|28. Wiki page: [M8208 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M8208.html)
+Ward-Beck Systems M8208, 1995|28. Wiki page: [M8208 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.AMPLIFIERS.M8208-Remote-Level-Distribution-Amplifier/)
 
 | Folder | What is in it | Files |
 |---|---|---|
